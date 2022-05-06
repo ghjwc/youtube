@@ -391,7 +391,7 @@ nth-last-child(n)는  마지막에서부터 순서를 계산
 
 .left {
     width: 1025px;
-    height: 90%;
+    height: 97%;
     margin-top: 20px;
     background-color: bisque;
 }
@@ -423,6 +423,12 @@ nth-last-child(n)는  마지막에서부터 순서를 계산
     font-size: 12px;
     height: 15px;
     /* background-color: chartreuse; */
+}
+
+.hashtag_1 {
+    color: gray;
+    font-size: 12px;
+    height: 15px;
 }
 
 .sub_bold {
@@ -469,17 +475,18 @@ nth-last-child(n)는  마지막에서부터 순서를 계산
     flex-direction: row;
     margin-top: 10px;
     width: 100%;
-    height: 110px;
+    height: 140px;
     border-top: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
 }
 
 .thumbnail_1 {
     left: 0;
-    width: 80px;
+    width: 70px;
     height: 100%;
-    background-color: blue;
+    padding-top: 10px;
+    /* background-color: blue; */
 }
 
 .thumbnail_1 img {
@@ -488,29 +495,102 @@ nth-last-child(n)는  마지막에서부터 순서를 계산
 
 .re_txt {
     right: 0;
-    width: 945px;
+    width: 955px;
     height: 100%;
-    background-color: darkgreen;
+    /* background-color: lightpink; */
 }
 
 .re_txt1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     right: 0;
-    width: 945px;
+    width: 955px;
     height: 40px;
-    background-color: crimson;
+    padding-top: 10px;
+    font-size: 14px;
+    /* background-color: lightskyblue; */
 }
 
-/* .re_txt1 {
-    right: 0;
-    width: 945px;
+.subscribe {
+    background-color: red;
+    color: white;
+    width: 75px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.re_txt1 p {
+    margin: 0px 0px 0px 0px;
+    line-height: 120%;
+}
+
+.re_txt2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.here {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    /* background-color: aqua; */
+}
+
+.foot1 {
+    font-size: 20px;
+    /* background-color: green; */
+}
+
+.foot2 {
+    margin-left: 50px;
+    font-size: 14px;
+    /* background-color: yellow; */
+}
+
+.foot2 img {
+    vertical-align: middle;
+}
+
+.writere {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* background-color: lightpink; */
+}
+
+.man {
+    width: 70px;
+    height: 100%;
+    text-align: center;
+    background-color: chartreuse;
+}
+
+.writere input {
+    float: right;
+    width: 947px;
     height: 30px;
-    background-color: crimson;
-} */
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+
+
 
 
 .right {
     width: 400px;
-    height: 90%;
+    height: 97%;
     margin-top: 20px;
     background-color: lightsalmon;
 }
