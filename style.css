@@ -1,6 +1,7 @@
 body {
     margin: 0;
     height: 180vh;
+    font-family: 'Malgun Gothic';
 }
 
 #head {
@@ -13,16 +14,25 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom: 1px solid lightgray;
     background-color: white;
 }
 
+#top_1 {
+    display: inline-flex;
+    flex-direction: row;
+}
 
 .menubtn {
     width: 7%;
     text-align: center;
     padding-top: 15px;
     /* background-color: blue; */
+}
+
+.menubtn_1 {
+    width: 70px;
+    text-align: center;
+    padding-top: 18px;
 }
 
 .topmenu {
@@ -36,6 +46,10 @@ body {
     margin-left: -23%;
 }
 
+.ytlogo_1 {
+    width: fit-content;
+    padding: 15px 0px 15px 0px;
+}
 
 .search {
     margin-top: 8px;
@@ -47,27 +61,52 @@ body {
     border: 1px solid lightgray;
 }
 
+.search_1 {
+    margin-top: 8px;
+    margin-right: -7px;
+    vertical-align: middle;
+    width: 500px;
+    height: 35px;
+    font-size: 15px;
+    border: 1px solid lightgray;
+}
+
 .searchbtn {
     margin-top: 9px;
     vertical-align: middle;
     text-align: center;
-    background-color: #eeeeee;
+    background-color: #f5f5f5;
     width: 60px;
     height: 39px;
     padding-top: 5px;
     border: 1px lightgray solid;
+    cursor: pointer;
+}
+
+.searchbtn_1 {
+    margin-top: 9px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #f5f5f5;
+    width: 70px;
+    height: 39px;
+    padding-top: 5px;
+    border: 1px lightgray solid;
+    cursor: pointer;
 }
 
 .searchvoice {
     margin-top: 10px;
     vertical-align: middle;
     text-align: center;
-    background-color: #eeeeee;
+    background-color: #f5f5f5;
     width: 40px;
     height: 40px;
     padding-top: 5px;
+    margin-left: 5px;
     border-radius: 50%;
     border-style: none;
+    cursor: pointer;
 }
 
 /* #menuetc {
@@ -78,6 +117,7 @@ body {
 .etcimg {
     vertical-align: middle;
     margin-right: 5px;
+    cursor: pointer;
 }
 
 
@@ -102,24 +142,27 @@ body {
 
 
 #top2 {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     justify-content: center;
     float: right;
     width: 93%;
+    border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
     background-color: white;
     white-space: nowrap;
 }
 
 .top2menu {
-    margin: 10px;
+    margin: 10px 6px 10px 6px;
     padding: 7px 11px 7px 11px;
     width: fit-content;
     font-size: 13px;
     border: 1px solid lightgray;
     background-color: #eeeeee;
     border-radius: 18px;
+    white-space: nowrap;
+    cursor: pointer;
 }
 
 .top2menu:nth-child(1) {
@@ -128,6 +171,31 @@ body {
     border: 1px solid black;
 }
 
+.top2menu:nth-child(n+2):hover {
+    background-color: #e0e0e0;
+    transition-delay: 0s;
+    transition-duration: 0.5s;
+}
+
+ /* 7, 14, 21, 28 번째 box 배경색 변경 (7의배수)
+ .box:nth-child(7n)
+
+22번 부터 이후 모든 box 폰트색 변경
+.box:nth-child(n+22)
+
+1번째 부터 4번째 까지 box 배경색 변경
+.box:nth-child(-n+5)
+
+16번째 부터 19번째 까지 box 배경색 변경
+.box:nth-child(n+16):nth-child(-n+19)
+
+마지막에서부터 순서를 계산
+마지막(28)에서 부터 3번째
+.box:nth-last-child(3)
+
+nth-last-child(n)는  마지막에서부터 순서를 계산
+.box:nth-child(odd) 홀수
+.box:nth-child(even) 짝수  */
 
 .navbar1 {
     position: fixed;
@@ -311,6 +379,154 @@ body {
     vertical-align: text-top;
 }
 
+#container_1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    background-color: #f1f1f1;
+}
+
+.left {
+    width: 1025px;
+    height: 90%;
+    margin-top: 20px;
+    background-color: bisque;
+}
+
+.left iframe {
+    top: 0;
+}
+
+.subarea_1 {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    /* background-color: yellow; */
+}
+
+.subject_1 {
+    width: 100%;
+    height: 65px;
+    /* background-color: aqua; */
+}
+
+.subject_1 p {
+    margin: 0px 0px 0px 0px;
+    line-height: 120%;
+}
+
+.hashtag {
+    color: blue;
+    font-size: 12px;
+    height: 15px;
+    /* background-color: chartreuse; */
+}
+
+.sub_bold {
+    position: relative;
+    font-size: 20px;
+    height: 50px;
+    /* background-color: darkkhaki; */
+}
+
+.subject_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    /* background-color: lightskyblue; */
+}
+
+.sub2txt {
+    color: gray;
+}
+
+.sub2icon {
+    display: flex;
+    flex-direction: row;
+}
+
+.sub2icon div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sub2icon img {
+    width: 15px;
+    height: 15px;
+    padding: 0px 3px 0px 3px;
+    vertical-align: middle;
+}
+
+.re_1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 100%;
+    height: 110px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    background-color: lightgreen;
+}
+
+.thumbnail_1 {
+    left: 0;
+    width: 80px;
+    height: 100%;
+    background-color: blue;
+}
+
+.thumbnail_1 img {
+    border-radius: 50%;
+}
+
+.re_txt {
+    right: 0;
+    width: 945px;
+    height: 100%;
+    background-color: darkgreen;
+}
+
+.re_txt1 {
+    right: 0;
+    width: 945px;
+    height: 40px;
+    background-color: crimson;
+}
+
+/* .re_txt1 {
+    right: 0;
+    width: 945px;
+    height: 30px;
+    background-color: crimson;
+} */
+
+
+.right {
+    width: 400px;
+    height: 90%;
+    margin-top: 20px;
+    background-color: lightsalmon;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1300px) {
     #contents {
         grid-template-columns: repeat(3, 350px);
@@ -337,6 +553,7 @@ body {
     .ytlogo {
         margin-left: -8%;
     }
+
 }
 
 @media (max-width: 600px) {
