@@ -43,7 +43,7 @@ body {
 .ytlogo {
     padding: 15px 0px 15px 0px;
     /* background-color: aqua; */
-    margin-left: -23%;
+    margin-left: -22.5%;
 }
 
 .ytlogo_1 {
@@ -273,6 +273,22 @@ nth-last-child(n)는  마지막에서부터 순서를 계산
     top: 0;
     width: 100%;
     height: 200px;
+}
+
+.playtime_index {
+    background-color: black;
+    color: white;
+    opacity: .7;
+    width: fit-content;
+    height: fit-content;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 3px;
+    z-index: 1;
+    position: absolute;
+    bottom: 115px;
+    right: 5px;
 }
 
 .con_item:hover #videoplay {
@@ -594,7 +610,7 @@ nth-last-child(n)는  마지막에서부터 순서를 계산
 
 .writere input {
     float: right;
-    width: 947px;
+    width: 975px;
     height: 30px;
     background-color: transparent;
     border: none;
@@ -750,6 +766,38 @@ nth-last-child(n)는  마지막에서부터 순서를 계산
     margin-left: 160px;
 }
 
+.playtime_1 {
+    background-color: black;
+    color: white;
+    opacity: .7;
+    width: fit-content;
+    height: fit-content;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 3px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 83px;
+    margin-left: 152px;
+}
+
+.playtime_2 {
+    background-color: black;
+    color: white;
+    opacity: .7;
+    width: fit-content;
+    height: fit-content;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 3px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 83px;
+    margin-left: 142px;
+}
+
 .pl_thumb img {
     width: 200px;
     height: 113px;
@@ -778,9 +826,93 @@ nth-last-child(n)는  마지막에서부터 순서를 계산
 }
 
 
+.ex_back {
+    float: right;
+    width: 93%;
+    height: 100%;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
 
+.ex_tap {
+    display: inline-flex;
+    flex-direction: row;
+    text-align: center;
+    width: 1200px;
+    height: 180px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: aqua;
+}
 
+.ex_tap_txt {
+    margin: 5px;
+    width: 180px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: lightyellow;
+}
 
+.hot {
+    width: 1200px;
+    height: 400px;
+    margin-top: 20px;
+    background-color: salmon;
+}
+
+.hot_1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.hot_video {
+    float: left;
+    width: 300px;
+    height: 169px;
+    background-color: lightgreen;
+}
+
+.hot_txt {
+    float: right;
+    width: 900px;
+    height: 169px;
+    background-color: lightgray;
+}
+
+.hotshorts {
+    width: 1200px;
+    height: 300px;
+    margin-top: 20px;
+    background-color: lightskyblue;
+}
+
+.hs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hot_2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 230px;
+    height: 258px;
+    background-color: lavenderblush;
+}
+
+.shorts_video {
+    width: 230px;
+    height: 129px;
+    background-color: firebrick;
+}
+
+.shorst_txt {
+    width: 250px;
+    height: 141px;
+    background-color: khaki;
+}
 
 
 
