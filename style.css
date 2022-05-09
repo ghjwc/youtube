@@ -153,6 +153,7 @@ body {
     white-space: nowrap;
 }
 
+
 .top2menu {
     margin: 10px 6px 10px 6px;
     padding: 7px 11px 7px 11px;
@@ -353,6 +354,17 @@ nth-last-child(n)는  마지막에서부터 순서를 계산
 
 }
 
+.video_txt a {
+    text-decoration: none;
+    color: black;
+}
+
+.video_txt a:hover {
+    color: white;
+    transition-delay: 0s;
+    transition-duration: 0.5s;
+}
+
 .play_more {
     width: 350px;
     height: 100px;
@@ -386,14 +398,14 @@ nth-last-child(n)는  마지막에서부터 순서를 계산
     flex-direction: row;
     justify-content: center;
     gap: 20px;
-    background-color: #f1f1f1;
+    background-color: #f5f5f5;
 }
 
 .left {
     width: 1025px;
     height: 97%;
     margin-top: 20px;
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 
 .left iframe {
@@ -437,6 +449,7 @@ nth-last-child(n)는  마지막에서부터 순서를 계산
     height: 50px;
     /* background-color: darkkhaki; */
 }
+
 
 .subject_2 {
     display: flex;
@@ -569,10 +582,14 @@ nth-last-child(n)는  마지막에서부터 순서를 계산
 }
 
 .man {
-    width: 70px;
+    width: 50px;
     height: 100%;
-    text-align: center;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
+}
+
+.man img {
+    width: 45px;
+    border-radius: 50%;
 }
 
 .writere input {
@@ -584,6 +601,74 @@ nth-last-child(n)는  마지막에서부터 순서를 계산
     border-bottom: 1px solid lightgray;
 }
 
+.rediv {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    /* background-color: lightpink; */
+}
+
+.rrr {
+    width: 100%;
+    padding-left: 10px;
+    /* background-color: aqua; */
+}
+
+.sub2icon_1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    color: gray;
+}
+
+.sub2icon_1 div {
+    margin-right: 10px;
+}
+
+.sub2icon_1 img {
+    width: 15px;
+    height: 15px;
+    padding: 0px 3px 0px 3px;
+    vertical-align: middle;
+}
+
+.pinned {
+    font-size: 12px;
+    color: gray;
+    margin: 0;
+}
+
+.pinned_1 {
+    font-size: 12px;
+    color: gray;
+    margin: 0px 0px 5px 0px;
+}
+
+.retop {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 0px;
+    font-size: 14px;
+    /* background-color: chartreuse; */
+}
+
+.writer {
+    background-color: gray;
+    color: white;
+    width: fit-content;
+    padding: 0px 10px 0px 10px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    border-radius: 30px;
+}
+
+.innertxt {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    /* background-color: yellow; */
+}
 
 
 
@@ -592,12 +677,105 @@ nth-last-child(n)는  마지막에서부터 순서를 계산
     width: 400px;
     height: 97%;
     margin-top: 20px;
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
+}
+.rechat {
+    width: 100%;
+    padding: 8px;
+    background-color: white;
+    border: 1px solid lightgray;
+    color: gray;
+    font-size: 12px;
+    text-align: center;
 }
 
+#top2_1 {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+    /* background-color: yellow; */
+}
 
+.top2menu_1 {
+    margin: 10px 10px 10px 0px;
+    padding: 7px 15px 7px 15px;
+    width: fit-content;
+    font-size: 15px;
+    border: 1px solid lightgray;
+    background-color: #e8e8e8;
+    border-radius: 18px;
+    white-space: nowrap;
+    cursor: pointer;
+}
 
+.top2menu_1:nth-child(1) {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
 
+.top2menu_1:nth-child(n+2):hover {
+    background-color: #d9d9d9;
+    transition-delay: 0s;
+    transition-duration: 0.5s;
+}
+
+.playlist {
+    width: 100%;
+    height: 113px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.pl_thumb {
+    float: left;
+    /* background-color: aqua; */
+}
+
+.playtime {
+    background-color: black;
+    color: white;
+    opacity: .7;
+    width: fit-content;
+    height: fit-content;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 3px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 83px;
+    margin-left: 160px;
+}
+
+.pl_thumb img {
+    width: 200px;
+    height: 113px;
+}
+
+.pl_txt {
+    float: right;
+    padding-left: 10px;
+    /* background-color: lightyellow; */
+}
+
+.pl_txt p {
+    margin: 0px 0px 0px 0px;
+    line-height: 130%;
+}
+
+.pl_sub {
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.pl_etc {
+    font-size: 13px;
+    color: gray;
+}
 
 
 
