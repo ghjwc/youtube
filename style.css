@@ -1199,6 +1199,107 @@ nth-last-child(n)는  마지막에서부터 순서를 계산
 }
 
 
+
+
+.movietop {
+    width: 100%;
+    height: 160px;
+    background-color: #fafafa;
+}
+
+.thtx {
+    width: 1300px;
+    height: 80px;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.mvth img {
+    border-radius: 50%;
+}
+
+.mvtoptxt {
+    height: fit-content;
+    margin: 10px 0px 0px 20px;
+    word-spacing: 3px;
+}
+
+.mvtoptxt p {
+    margin: 0 0 0 0;
+    font-size: 30px;
+}
+
+.moviesearch {
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.ms {
+    width: 120px;
+    height: 57px;
+    line-height: 66px;
+    margin-right: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.ms:nth-child(1) {
+    border-bottom: 3px solid black;
+}
+
+.ms:nth-child(2) {
+    color: gray;
+}
+
+.moviestart {
+    width: 1300px;
+    height: 420px;
+    margin: 20px auto;
+    background-color: salmon;
+}
+
+.movielist {
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    height: 350px;
+    margin-top: 20px;
+    background-color: bisque;
+}
+
+.onemovie {
+    width: 200px;
+    height: 350px;
+    margin-right: 20px;
+    background-color: aqua;
+}
+
+.poster {
+    width: 200px;
+    height: 283px;
+    background-color: lawngreen;
+}
+
+.moviesub {
+    width: 200px;
+    height: 30px;
+    background-color: chocolate;
+}
+
+.buy {
+    width: fit-content;
+    height: fit-content;
+    background-color: lightpink;
+}
+
+
+
+
 @media (max-width: 1300px) {
     #contents {
         grid-template-columns: repeat(3, 350px);
