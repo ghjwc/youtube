@@ -1029,7 +1029,7 @@ nth-last-child(n)는  마지막에서부터 순서를 계산
 
 .sh_subject {
     position: absolute;
-    bottom: 0;
+    bottom: 50px;
     z-index: 1;
     width: 370px;
     height: 100px;
@@ -1103,7 +1103,7 @@ nth-last-child(n)는  마지막에서부터 순서를 계산
     text-align: center;
     width: 60px;
     position: absolute;
-    bottom: 5px;
+    bottom: 50px;
     /* background-color: yellow; */
 }
 
@@ -1122,7 +1122,7 @@ nth-last-child(n)는  마지막에서부터 순서를 계산
 .subsbox {
     width: 500px;
     height: 300px;
-    margin: 120px auto;
+    margin: 200px auto;
     text-align: center;
 }
 
