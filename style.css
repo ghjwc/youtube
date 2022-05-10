@@ -1024,15 +1024,15 @@ nth-last-child(n)는  마지막에서부터 순서를 계산
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 5px 1px lightgray;
-    background: linear-gradient( to bottom, transparent, lightgray );
 }
+
 
 .sh_subject {
     position: absolute;
     bottom: 50px;
     z-index: 1;
     width: 370px;
-    height: 100px;
+    height: 130px;
     margin: 15px;
     /* background-color: aquamarine; */
 }
