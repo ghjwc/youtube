@@ -826,6 +826,9 @@ nth-last-child(n)는  마지막에서부터 순서를 계산
 }
 
 
+
+
+
 .ex_back {
     float: right;
     width: 93%;
@@ -834,57 +837,127 @@ nth-last-child(n)는  마지막에서부터 순서를 계산
     background-color: #f5f5f5;
 }
 
+.ex_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .ex_tap {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
-    text-align: center;
-    width: 1200px;
+    width: 1224px;
     height: 180px;
+    margin: 0 auto;
     align-items: center;
     justify-content: space-evenly;
-    background-color: aqua;
 }
 
 .ex_tap_txt {
-    margin: 5px;
-    width: 180px;
+    float: left;
+    width: 190px;
     height: 150px;
     border-radius: 10px;
-    background-color: lightyellow;
+    background-color: white;
+}
+
+.ex_tap_txt img {
+    width: fit-content;
+    height: 50px;
+    /* background-color: salmon;     */
+}
+
+.tap_in {
+    margin-top: 27px;
+    margin-left: 20px;
+    width: fit-content;
+    /* background-color: yellow; */
+}
+
+.ex_tap_txt:hover {
+    background-color: lightgrey;
 }
 
 .hot {
+    margin: 0 auto;
+    align-items: center;
     width: 1200px;
-    height: 400px;
-    margin-top: 20px;
-    background-color: salmon;
+    height: fit-content;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    /* background-color: salmon; */
 }
 
 .hot_1 {
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .hot_video {
     float: left;
     width: 300px;
     height: 169px;
-    background-color: lightgreen;
+}
+
+.playtime_hot {
+    background-color: black;
+    color: white;
+    opacity: .7;
+    width: fit-content;
+    height: fit-content;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 3px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 262px;
+}
+
+.playtime_hot_1 {
+    background-color: black;
+    color: white;
+    opacity: .7;
+    width: fit-content;
+    height: fit-content;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 3px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 255px;
 }
 
 .hot_txt {
     float: right;
-    width: 900px;
+    width: 550px;
     height: 169px;
-    background-color: lightgray;
+    margin-left: 20px;
+    /* background-color: lightyellow; */
+}
+
+.hot_txt p {
+    margin: 0px 0px 5px 0px;
+    line-height: 120%;
+}
+
+.hot_txt div {
+    margin-top: 15px;
 }
 
 .hotshorts {
+    margin: 0 auto;
+    align-items: center;
     width: 1200px;
     height: 300px;
-    margin-top: 20px;
-    background-color: lightskyblue;
+    margin-top: 10px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    /* background-color: lightskyblue; */
 }
 
 .hs {
@@ -895,26 +968,235 @@ nth-last-child(n)는  마지막에서부터 순서를 계산
 
 .hot_2 {
     display: flex;
-    flex-direction: row;
-    margin-top: 10px;
+    flex-direction: column;
+    margin-top: 5px;
     width: 230px;
-    height: 258px;
-    background-color: lavenderblush;
+    /* background-color: lavenderblush; */
 }
 
 .shorts_video {
     width: 230px;
     height: 129px;
-    background-color: firebrick;
+    /* background-color: firebrick; */
 }
 
-.shorst_txt {
-    width: 250px;
-    height: 141px;
-    background-color: khaki;
+.playtime_shorts {
+    background-color: black;
+    color: white;
+    opacity: .7;
+    width: fit-content;
+    height: fit-content;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 3px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 190px;
+}
+
+.shorts_txt {
+    width: 230px;
+    height: 110px;
+    /* background-color: khaki; */
+}
+
+.shorts_txt p {
+    margin: 10px 0px 10px 0px;
 }
 
 
+
+
+.shbox {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    width: 475px;
+    height: 650px;
+    /* background-color: salmon; */
+}
+
+.shleft {
+    width: 400px;
+    height: 650px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 1px lightgray;
+    background: linear-gradient( to bottom, transparent, lightgray );
+}
+
+.sh_subject {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    width: 370px;
+    height: 100px;
+    margin: 15px;
+    /* background-color: aquamarine; */
+}
+
+.sh_subject p {
+    margin: 5px 0 15px 0;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.simpson {
+    display: flex;
+    flex-direction: row;
+}
+
+.simpson img {
+    margin-right: 10px;
+}
+
+.simpson p {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 12px 0px 0px 0px;
+    height: 17px;
+}
+
+.sh_subject img {
+    border-radius: 50%;
+}
+
+.shsubetc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.subscribe_1 {
+    background-color: red;
+    color: white;
+    font-size: 13px;
+    width: 75px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 2px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+ 
+
+.shright {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 650px;
+    margin-left: 15px;
+    /* background-color: chartreuse; */
+}
+
+.shdot {
+    width: fit-content;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.right_in {
+    text-align: center;
+    width: 60px;
+    position: absolute;
+    bottom: 5px;
+    /* background-color: yellow; */
+}
+
+.right_in div {
+    margin-top: 30px;
+}
+
+.right_in p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #606060;
+}
+
+
+
+.subsbox {
+    width: 500px;
+    height: 300px;
+    margin: 120px auto;
+    text-align: center;
+}
+
+.subboxtxt {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.subsbox p {
+    margin: 15px 0px 15px 0px;
+}
+
+
+.hi_back {
+    display: flex;
+    flex-direction: row;
+}
+
+.hi_left {
+    width: 70%;
+}
+
+.subboxtxt div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hi_right {
+    width: 30%;
+    height: 100vh;
+    background-color: #eeeeee;
+}
+
+.hi_right_1 {
+    margin: 30px;
+    font-size: 14px;
+}
+
+.hr1 {
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 15px 0px 15px;
+    border-bottom: 1px solid lightgray;
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    border-bottom: 1px solid lightgray;
+}
+
+.radio input {
+    margin-top: 15px;
+}
+
+.hi_right_2 {
+    margin: 30px;
+    font-size: 13px;
+}
+
+.binpause {
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 15px 0px 15px;
+}
+
+.binpause img {
+    vertical-align: middle;
+    margin-right: 10px
+}
 
 
 @media (max-width: 1300px) {
